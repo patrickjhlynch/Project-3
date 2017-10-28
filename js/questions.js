@@ -27,7 +27,7 @@ var questions = [{
 	"answer": "4"
 }, {
 	"question": "What's your opinion on this meme?",
-	"image" : "cupHeadLoss.png",
+	"image" : "cupheadLoss.png",
 	"option1": "Great",
 	"option2": "Good",
 	"option3": "Not Good",
@@ -108,7 +108,7 @@ var questions = [{
 	"answer": "3"
 }, {
 	"question": "What's your opinion on this meme?",
-	"image" : "noGfJuiceReviewBrah.jpg",
+	"image" : "noGfJuiceReviewbrah.jpg",
 	"option1": "Great",
 	"option2": "Good",
 	"option3": "Not Good",
