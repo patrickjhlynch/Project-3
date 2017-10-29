@@ -3,11 +3,6 @@ header{
 	background-color: #FFF;
 }
 
-header{
-
-}
-
-
 nav{
 	text-align: center;
 	background-color: #ff9fbc;
@@ -86,13 +81,6 @@ h5{
 	font-weight: 300;
 }
 
-h6{
-	margin-bottom: 20px;
-	margin-top: 0px;
-	font-size: 1.25em;
-	font-weight: 900;
-}
-
 p{
 	font-size:1em;
 }
@@ -145,10 +133,6 @@ a:hover{
 
 .textHolderFAQ{
 	text-align: left;
-}
-
-.image{
-
 }
 
 .bigButton{
@@ -290,32 +274,6 @@ a:hover{
 	margin-right: 30px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-}
-
-.NQ{
-	margin-bottom: 20px;
-	margin-top: 40px;
-	font-size: 3em;
-	font-weight: 900;
-}
-
-.woke{
-	margin-top: 0px;
-	width: 150px;
-	height: 20px;
-	float: left;
-}
-
-.normie{
-	width: 50px;
-	margin: auto;
-}
-
-.turboNormie{
-	margin-top: -44px;
-	width: 150px;
-	height: 20px;
-	float: right;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
