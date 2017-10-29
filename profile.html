@@ -28,27 +28,28 @@
 					<h3>Already have an account?</h3>
 					<h1>LOG IN.</h1>
 					<form action="/action_page.php">
-						<input type="text" placeholder="EMAIL/USERNAME" class="logInInput">
-						<input type="password" placeholder="PASSWORD" class="logInInput">
+						<input type="text" placeholder="EMAIL/USERNAME" name="email/username" class="logInInput" required>
+						<input type="password" placeholder="PASSWORD" name="password" class="logInInput" required>
+						<div class="spacer2"></div>
+						<button class="nextButton" type="submit">
+							<p>LOG IN</p>
+						</button>
 					</form>
-					<div class="spacer2"></div>
-					<div class="bigButton">
-						<a href="#">LOG IN</a>
-					</div>
 				</div>
 				<img src="img/line.png" class="line"/>
 				<div class="signUp">
 					<h3>Don't have an account?</h3>
 					<h1>SIGN UP.</h1>
 					<form action="/action_page.php">
-						<input type="text" placeholder="USERNAME" class="logInInput">
-						<input type="text" placeholder="EMAIL" class="logInInput">
-						<input type="password" placeholder="PASSWORD" class="logInInput">
-						<input type="password" placeholder="CONFIRM PASSWORD" class="logInInput">
+						<input type="text" placeholder="USERNAME" name="username" class="logInInput" required>
+						<input type="text" placeholder="EMAIL"
+						name="email" class="logInInput" required>
+						<input type="password" placeholder="PASSWORD" name="password" class="logInInput" required>
+						<input type="password" placeholder="CONFIRM PASSWORD" name="password-repeat" class="logInInput" required>
+						<button class="nextButton" type="submit">
+							<p>SIGN UP</p>
+						</button>
 					</form>
-					<div class="bigButton">
-						<a href="#">SIGN UP</a>
-					</div>
 				</div>
 			<footer>
 				<div class="footerNav">
