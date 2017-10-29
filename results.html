@@ -25,17 +25,16 @@
 				<a href = "submit.html">SUBMIT</a>
 			</nav>
 			<div class="textHolder">
-			<h1>RESULTS.</h1>
-			<h2 id="evaluation">Are you a knuckle-dragging normie or an ascended, higher being? </br>Find out now!</h2>
-			<h6 class="NQ" id="NQ"> 100</h6>
+			
+			<canvas id="canvas" width="720" height="510"></canvas>
+			<img src="img/logoMedium.png" id="mediumLogo" style="display: none"/>
 			<img src="img/resultBar.png" style="display:none" id="resultBar"/>
-			<canvas id="canvas" width="602" height="50"></canvas>
-			<div class="woke"><h6>WOKE</h6></div>
-			<div class="normie"><h6>NORMIE</h6></div>
-			<div class="turboNormie"><h6>TURBO NORMIE</h6></div>
-				<button class="nextButton">
-					<p>GET SHAREABLE IMAGE</p>
-				</button>
+			</br></br>
+			<h2 id="evaluation">Are you a knuckle-dragging normie or an ascended, higher being? </br>Find out now!</h2>
+			<button class="nextButton" id="shareButton" onClick="getImage();">
+				<p>GET SHAREABLE IMAGE</p>
+			</button>
+			<p id="shareInfo" style="display:none">Just right-click anywhere on your results above to either copy or save the image to compare with your friends!</p>
 			</div>
 			<footer>
 				<div class="footerNav">

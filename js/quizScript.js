@@ -46,10 +46,6 @@ function loadNextQuestion(){
 	if (currentQuestion == totalQuestions){
 		localStorage.setItem("score", score);
 		window.location.href = "results.html";
-		/*container.style.display = 'none';
-		resultCont.style.display = '';
-		resultCont.childNodes[2].textContent = 'Your Score: ' + score;
-		return;*/
 	}
 	loadQuestion(currentQuestion);
 }
